@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/oobtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observable-Observer" />
+
+    <Button
+        android:id="@+id/ssBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single-SingleObserver" />
+
+    <Button
+        android:id="@+id/mmbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maybe-MaybeObserver" />
+
+    <Button
+        android:id="@+id/ccbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completable-CompletableObsever" />
+
+    <Button
+        android:id="@+id/fobtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flowable-Observer" />
+</LinearLayout>
