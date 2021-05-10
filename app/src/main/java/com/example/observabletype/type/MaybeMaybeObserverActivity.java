@@ -18,7 +18,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 public class MaybeMaybeObserverActivity extends AppCompatActivity {
-    private static final String TAG = ObservableObserverActivity.class.getSimpleName();
+    private static final String TAG = MaybeMaybeObserverActivity.class.getSimpleName();
     private Disposable disposable;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

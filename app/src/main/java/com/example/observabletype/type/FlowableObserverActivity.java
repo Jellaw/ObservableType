@@ -20,7 +20,7 @@ import io.reactivex.schedulers.Schedulers;
 import kotlinx.coroutines.flow.Flow;
 
 public class FlowableObserverActivity extends AppCompatActivity {
-    private static final String TAG = ObservableObserverActivity.class.getSimpleName();
+    private static final String TAG = FlowableObserverActivity.class.getSimpleName();
     private Disposable disposable;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
